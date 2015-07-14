@@ -1,0 +1,8 @@
+{
+  "name": "@economist/connect-filter-jsonapi",
+  "version": "1.0.0",
+  "description": "Connect middleware to filter arrays in a JSONAPI like manner",
+  "main": "index.js",
+  "author": "The Economist (http://economist.com)",
+  "license": "LicenseRef-LICENSE"
+}
