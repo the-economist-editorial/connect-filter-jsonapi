@@ -4,5 +4,8 @@
   "description": "Connect middleware to filter arrays in a JSONAPI like manner",
   "main": "index.js",
   "author": "The Economist (http://economist.com)",
-  "license": "LicenseRef-LICENSE"
+  "license": "LicenseRef-LICENSE",
+  "dependencies": {
+    "qs": "^4.0.0"
+  }
 }
