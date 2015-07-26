@@ -37,7 +37,7 @@ module.exports = function contentAPI(options) {
     var requestURL = url.parse(request.url);
     // debug('Parsing request: ' + requestURL.pathname);
     var params = qs.parse(requestURL.query);
-    response.setHeader('Content-Type', 'application/json');
+    response.setHeader('Content-Type', 'application/json; charset=utf-8');
     var filteredContents = ap.filter.call(content, function (thing) {
       return defaultFilterFunction.call(content, thing, params, request);
     });
